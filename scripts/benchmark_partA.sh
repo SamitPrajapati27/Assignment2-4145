@@ -1,5 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=a2_partA
+#SBATCH --partition=Centaurus
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=36
