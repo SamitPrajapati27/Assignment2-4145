@@ -10,7 +10,7 @@
 
 export OMP_PROC_BIND=true
 export OMP_PLACES=cores
-export B_STAR=64
+export B_STAR=256
 
 mkdir -p data
 gcc --version > data/system_info_partB.txt

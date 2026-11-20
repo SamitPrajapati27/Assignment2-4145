@@ -8,7 +8,7 @@
 #SBATCH --time=01:30:00
 #SBATCH --output=data/partA_%j.log
 
-export B_STAR=64
+export B_STAR=256
 
 mkdir -p data
 gcc --version > data/system_info_partA.txt
