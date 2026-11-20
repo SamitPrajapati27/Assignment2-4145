@@ -1,0 +1,9 @@
+.DS_Store
+
+partA
+partB
+*.o
+*.out
+
+__pycache__/
+*.pyc
