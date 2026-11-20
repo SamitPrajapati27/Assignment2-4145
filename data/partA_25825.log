@@ -1,0 +1,1 @@
+gcc -O2 -Wall -I. -pthread src/partA.c -o partA
